@@ -1,0 +1,104 @@
+body {
+  background-color: #1f1c1c;
+}
+.button {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(45deg, #fa0404, #ec9a00, #ec0606);
+  padding: 14px 25px;
+  border-radius: 20px;
+  font-size: 1.25em;
+  cursor: pointer;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: #020202;
+  border-radius: 19px;
+  transition: 0.5s;
+}
+
+.button:hover::before {
+  opacity: 0.7;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  background: linear-gradient(45deg, #a60ce3, #ff0101, #ec00ec);
+  border-radius: 9px;
+  transition: 0.5s;
+  opacity: 0;
+  filter: blur(20px);
+}
+
+.button:hover:after {
+  opacity: 1;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #353232;
+  border-radius: 20px;
+  position: relative;
+  margin: 2px;
+}
+.container2{
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: #3b3737;
+  border-radius: 20px;
+  margin: 10px;
+
+}
+
+.container1 {
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: #3b3737;
+  border-radius: 20px;}
+.container2 {
+  margin: 10px;
+  color: #fff;
+  font-family: poppins, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.image {
+  width: 420px;
+  height: 520;
+  border-radius: 20px;
+  margin: 8px;
+  align-self: center;
+}
+.container1 {
+  color: #fff;
+  font-family: poppins, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10px;
+}
+.container1{
+  color: #fff;
+  font-family: poppins, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 2px;
+}
