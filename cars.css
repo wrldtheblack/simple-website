@@ -1,0 +1,36 @@
+.checked {
+    color: orange;
+    
+  }
+  body {
+    background-color: #1f1c1c;
+  }
+  .container{
+background-color: #353232;
+border-radius: 10px;
+
+  }
+  
+  h1 {
+    color: #fff;
+    font-family: poppins, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+  }
+  p {
+    color: #fff;
+    font-family: poppins, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
